@@ -1,0 +1,155 @@
+/* top section styling */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+.top-section{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 100px 150px 150px;
+    }
+
+.header-logo, .hero-main-text{
+    color: #F9FAF8;
+}
+
+.header-logo{
+    font-size: 24px;
+}
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.link-text, .hero-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.right-header{
+    display: flex;
+    gap: 20px;
+}
+.hero-container-bg{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-container{
+    width: 450px;
+}
+
+.btn{
+    background-color: #3882f6;
+    padding: 10px 50px;
+    border-radius: 8px;
+    border: none;
+    color: #F9FAF8;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+/* 2nd section styling */
+.section-2{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-2 h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 200px;
+    margin: 25px;
+}
+.card-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-body p{
+    color: black;
+}
+
+
+
+
+/* 3rd section styling */
+.section-3{
+    background-color: #E5E7EB;
+    padding: 100px;
+    /* display: flex; */
+}
+.section-3 p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 0px 150px;
+}
+.section-3 .thor{
+    text-align: right;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+/* 4th section styling */
+.section-4{
+    display: flex;
+    justify-content: center;
+}
+.cta{
+    background-color: #3882f6;
+    display: flex;
+    align-items: flex-end;
+    gap: 150px;
+    padding: 30px 100px;
+    margin: 60px;
+    border-radius: 5px;
+}
+p{
+    margin: 0px;
+    color: #F9FAF8;
+
+}
+.cta-text .p{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.btn-2{
+    padding: 5px 30px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    background-color: #3882f6;
+    color: #F9FAF8;
+}
+
+/* footer styling */
+.footer{
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 14px;
+}
